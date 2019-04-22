@@ -19,7 +19,13 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Location", name: "location", widget: "map" }
-
+      - label: "著者"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        searchFields: ["name", "twitterHandle"]
+        valueField: "name"
+        displayFields: ["twitterHandle", "followerCount"]
   - name: "pages"
     label: "Pages"
     files:
