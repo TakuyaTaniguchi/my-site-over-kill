@@ -2,7 +2,8 @@
 templateKey: blog-post
 title: 'perfect-scrollbarの事始め '
 date: 2019-04-24T14:13:36.203Z
-description: perfect-scrollbarの最小構成
+description: |
+  perfect-scrollbarの最小構成
 location: '{"type":"Point","coordinates":[-42.5594856,1.7868871]}'
 author: Rin
 ---
