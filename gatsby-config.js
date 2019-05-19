@@ -73,10 +73,10 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackkingId: 'UA-1111111',
-      },
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
+      }
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
