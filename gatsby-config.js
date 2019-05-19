@@ -73,9 +73,9 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        trackkingId: 'UA-1111111',
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
