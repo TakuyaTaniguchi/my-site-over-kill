@@ -19,7 +19,7 @@ export default function Ogp({isRoot, title, description}) {
       <meta property="og:url" content={blogUrl} />
       <meta property="og:type" content={type} />
       <meta property="og:site_name" content={blogTitle} />
-      <meta property="og:image" content='https://www.over-kill.net/' />
+      <meta property="og:image" content='https://www.over-kill.net/img/og-image.jpg' />
       <meta property="fb:app_id" content={facebookAppId} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={`@${blogAuthorTwitterUserName}`} />
