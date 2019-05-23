@@ -12,16 +12,14 @@ import {
 
 export default function Ogp({isRoot, title, description}) {
   const type = isRoot ? 'website' : 'article';
-  console.log(blogUrl);
   return(
     <Helmet>
       <meta property="og:title" content={title || blogTitle} />
       <meta property="og:description" content={description || blogDescription} />
-
       <meta property="og:url" content={blogUrl} />
       <meta property="og:type" content={type} />
       <meta property="og:site_name" content={blogTitle} />
-      <meta property="og:image" content='http://www.sousou.co.jp/other/lecoq/2019/sp/build/images/fb.jpg' />
+      <meta property="og:image" content='https://www.over-kill.net/' />
       <meta property="fb:app_id" content={facebookAppId} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={`@${blogAuthorTwitterUserName}`} />
